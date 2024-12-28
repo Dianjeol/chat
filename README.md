@@ -1,1 +1,1 @@
-# chat
+Voicechat for Deepseek V3 via Whisper. Uses your personal api-keys for Openrouter (Deepseek) and Lemonfox AI (Whisper)
