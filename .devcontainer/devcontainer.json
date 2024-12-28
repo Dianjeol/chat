@@ -1,0 +1,26 @@
+{
+    "name": "Node.js & Android",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": {
+        "VARIANT": "18-bullseye" // Wähle eine Node.js LTS-Version
+      }
+    },
+    "settings": {},
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ],
+    "forwardPorts": [
+      8081, // Metro Bundler
+      5554, // Emulator
+      5555  // Emulator
+    ],
+    "features": {
+      "ghcr.io/devcontainers/features/github-cli:1": {}, // Optional: GitHub CLI
+      "ghcr.io/devcontainers/features/android:1": {
+          "version": "latest",
+          "setupGradle": true
+      }
+    }
+  }
