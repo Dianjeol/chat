@@ -1,7 +1,7 @@
 {
     "expo": {
-      "name": "Deine App Name",
-      "slug": "deine-app-slug",
+      "name": "Chat",
+      "slug": "chat",
       "version": "1.0.0",
       "orientation": "portrait",
       "icon": "./assets/icon.png",
@@ -18,7 +18,7 @@
         "supportsTablet": true
       },
       "android": {
-        "package": "com.deinusername.deineapp",
+        "package": "com.dianjeol.chat",
         "versionCode": 1
       },
       "web": {
