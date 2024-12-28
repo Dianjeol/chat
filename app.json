@@ -28,7 +28,7 @@
        [
          "expo-av",
          {
-           "microphonePermission": "Benutzerdefinierter Text, der den Zweck der Mikrofonberechtigung erklärt."
+           "microphonePermission": "Mikrofonberechtigung benötigt."
          }
        ]
      ]
